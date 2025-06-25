@@ -7,7 +7,7 @@
     "start": "npm run start --prefix backend"
   },
   "keywords": [],
-  "author": "Tushar",
+  "author": "CodingWithTushar",
   "license": "ISC",
   "description": "A dynamic social networking application designed to help users connect, make new friends, and facilitate rich interactions through real-time messaging, video calls, and a vibrant community platform."
 }
