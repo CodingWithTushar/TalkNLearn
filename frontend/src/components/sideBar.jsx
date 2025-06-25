@@ -1,6 +1,6 @@
 import { Link, useLocation} from "react-router-dom";
 import { useAuthUser } from "../hooks/useAuthUser.js";
-import { BellRingIcon, HomeIcon, Projector, UserIcon } from "lucide-react";
+import { BellRingIcon, HomeIcon, Projector} from "lucide-react";
 
 const SideBar = () => {
   const { authUser } = useAuthUser();
@@ -9,7 +9,6 @@ const SideBar = () => {
 
   const navLinks = [
     { to: "/", label: "Home", icon: HomeIcon },
-    { to: "/friends", label: "Friends", icon: UserIcon },
     { to: "/notifications", label: "Notifications", icon: BellRingIcon },
   ];
 
